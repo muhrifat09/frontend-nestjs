@@ -49,7 +49,7 @@ export default function Register() {
           <form onSubmit={handleSubmit}>
             {['Email', 'Password'].map((field, index) => (
               <div key={index} className="mb-4">
-                <label className="block text-sm font-medium text-gray-700">{field.replace(/([A-Z])/g, ' $1').trim()}</label>
+                <label className="block text-sm font-medium text-gray-700">{field.replace(/([A-Z])/g, ' $1').trim()} MANTAAAP</label>
                 <input
                   type={field === 'password' ? 'password' : 'text'}
                   name={field}
